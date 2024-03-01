@@ -1,0 +1,946 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Пицца Экспресс 24</title>
+    <link rel="stylesheet" href="css/site.css?v=qz_y62YI94NDOnaciRhx0wuH8jOOBJrpv_sIBl0gfbc" />
+</head>
+<body>
+<svg  id="UIKIT_SVG_SPRITE" aria-hidden="true" style="position: absolute; height: 0px; width: 0px;">
+
+
+
+    <symbol  id="map_point" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+        <path  d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z" />
+    </symbol>
+    <symbol  id="checkmark" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+        <path  d="M438.6 105.4c12.5 12.5 12.5 32.8 0 45.3l-256 256c-12.5 12.5-32.8 12.5-45.3 0l-128-128c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0L160 338.7 393.4 105.4c12.5-12.5 32.8-12.5 45.3 0z" />
+    </symbol>
+    <symbol  id="editsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+        <path  d="M441 58.9L453.1 71c9.4 9.4 9.4 24.6 0 33.9L424 134.1 377.9 88 407 58.9c9.4-9.4 24.6-9.4 33.9 0zM209.8 256.2L344 121.9 390.1 168 255.8 302.2c-2.9 2.9-6.5 5-10.4 6.1l-58.5 16.7 16.7-58.5c1.1-3.9 3.2-7.5 6.1-10.4zM373.1 25L175.8 222.2c-8.7 8.7-15 19.4-18.3 31.1l-28.6 100c-2.4 8.4-.1 17.4 6.1 23.6s15.2 8.5 23.6 6.1l100-28.6c11.8-3.4 22.5-9.7 31.1-18.3L487 138.9c28.1-28.1 28.1-73.7 0-101.8L474.9 25C446.8-3.1 401.2-3.1 373.1 25zM88 64C39.4 64 0 103.4 0 152V424c0 48.6 39.4 88 88 88H360c48.6 0 88-39.4 88-88V312c0-13.3-10.7-24-24-24s-24 10.7-24 24V424c0 22.1-17.9 40-40 40H88c-22.1 0-40-17.9-40-40V152c0-22.1 17.9-40 40-40H200c13.3 0 24-10.7 24-24s-10.7-24-24-24H88z" />
+    </symbol>
+    <symbol  id="busketsvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+        <path  d="M135.2 17.7C140.6 6.8 151.7 0 163.8 0H284.2c12.1 0 23.2 6.8 28.6 17.7L320 32h96c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 96 0 81.7 0 64S14.3 32 32 32h96l7.2-14.3zM32 128H416V448c0 35.3-28.7 64-64 64H96c-35.3 0-64-28.7-64-64V128zm96 64c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16zm96 0c-8.8 0-16 7.2-16 16V432c0 8.8 7.2 16 16 16s16-7.2 16-16V208c0-8.8-7.2-16-16-16z" />
+    </symbol>
+    <symbol id="crosssvg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+        <path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" />
+    </symbol>
+</svg>
+<div  class="wrapper">
+
+    <div  class="left-menu">
+        <ul  class="ul">
+            <li  class="left-menu-item">Рестораны</li>
+            <li  class="left-menu-item">Заказы</li>
+            <li  class="left-menu-item">История заказов</li>
+            <li  class="left-menu-item">Меню</li>
+            <li  class="left-menu-item">График работы</li>
+            <li  class="left-menu-item">Время приготовления</li>
+        </ul>
+        <ul  class="ul">
+            <li  class="left-menu-item">Справка</li>
+            <li  class="left-menu-item">Аккаунт</li>
+            <li  class="left-menu-item">Выход</li>
+        </ul>
+    </div>
+    <div  class="lk-wrapper">
+        <div  class="main-container">
+            <main  class="main-body"><div class="page-title">
+                <h1>Меню</h1>
+            </div>
+
+                <div>
+                    <div class="card menu-page-rest-select">
+                        <!--<span>Москва, Алтайская 9А</span>-->
+                        <select class="custom-select">
+                            <option>Москва, Алтайская 9А 1</option>
+                            <option>Москва, Алтайская 9А 2</option>
+                            <option>Москва, Алтайская 9А 3</option>
+                        </select>
+
+
+                    </div>
+                    <div class="menu-page-container">
+                        <div class="card menu-page-categories-container">
+                            <div class="common-flex-row">
+                                <h2> Категории <span class="grey-color" id="catsCount">3</span></h2>
+                                <button class="btn" onclick="openaddCategoryModal()">Добавить</button>
+                            </div>
+                            <ul class="ul" id="categories_ul">
+                                <li class="menu-page-categories-item">
+                                    <div>Напитки</div>
+                                    <div class="grey-color menu-page-categories-item-comment">Оключены 3 позиции</div>
+                                </li>
+                                <li class="menu-page-categories-item">Пицца</li>
+                                <li class="menu-page-categories-item">Донаты</li>
+                            </ul>
+                        </div>
+                        <div class="card menu-page-menu-items-container">
+                            <div class="menu-page-menu-items-header" id="menuItemsHeader">
+                                <span>Пицца</span>
+                                <button class="btn btn-round">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 512"><path d="M64 360a56 56 0 1 0 0 112 56 56 0 1 0 0-112zm0-160a56 56 0 1 0 0 112 56 56 0 1 0 0-112zM120 96A56 56 0 1 0 8 96a56 56 0 1 0 112 0z" /></svg>
+                                </button>
+                            </div>
+
+                            <div class="menu-page-menu-items-body">
+                                <button class="btn" id="addItemBtn" onclick="openItemModal()">
+                                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M256 80c0-17.7-14.3-32-32-32s-32 14.3-32 32V224H48c-17.7 0-32 14.3-32 32s14.3 32 32 32H192V432c0 17.7 14.3 32 32 32s32-14.3 32-32V288H400c17.7 0 32-14.3 32-32s-14.3-32-32-32H256V80z" /></svg>
+                                    <span class="">Добавить позицию</span>
+                                </button>
+                                <ul class="ul" id="menuItemsUl">
+                                    <li class="menu-page-menu-item">
+                                        <div class="menu-page-menu-item-left">
+                                            <div class="menu-page-menu-item-check">
+                                                <input type="checkbox">
+                                            </div>
+                                            <div class="menu-page-menu-item-img">
+                                                <img src="img/p-80x80.jpg">
+                                            </div>
+                                            <div class="menu-page-menu-item-name">
+                                                <span>Пицца Гавайская</span><span>980г</span>
+                                            </div>
+                                        </div>
+                                        <div class="menu-page-menu-item-right">
+                                            <div class="menu-page-menu-item-price">
+                                                1 900₽
+                                            </div>
+                                            <div class="menu-page-menu-item-buttons">
+                                                <button class="btn btn-transparent">
+                                                    <svg class="grey-color"><use xlink:href="#editsvg"></use></svg>
+                                                </button>
+                                                <button class="btn btn-transparent">
+                                                    <svg class="red-color"><use xlink:href="#busketsvg"></use></svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="menu-page-menu-item">
+                                        <div class="menu-page-menu-item-left">
+                                            <div class="menu-page-menu-item-check">
+                                                <input type="checkbox">
+                                            </div>
+                                            <div class="menu-page-menu-item-img">
+                                                <img src="img/p-80x80.jpg">
+                                            </div>
+                                            <div class="menu-page-menu-item-name">
+                                                <span>Пицца Гавайская</span><span>980г</span>
+                                            </div>
+                                        </div>
+                                        <div class="menu-page-menu-item-right">
+                                            <div class="menu-page-menu-item-price">
+                                                1 900₽
+                                            </div>
+                                            <div class="menu-page-menu-item-buttons">
+                                                <button class="btn btn-transparent">
+                                                    <svg class="grey-color"><use xlink:href="#editsvg"></use></svg>
+                                                </button>
+                                                <button class="btn btn-transparent">
+                                                    <svg class="red-color"><use xlink:href="#busketsvg"></use></svg>
+                                                </button>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu-page-menu-items-footer">
+                                <button class="btn"> Сохранить</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="nm-modal-wrapper hidden" id="addItemModalWrapper">
+                    <div class="right-modal" id="CreateItemForm">
+                        <div class="right-modal-header">
+                            <div class="right-modal-header-title">Пицца Гавайская</div>
+                            <button class="btn" onclick="closeModals();">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                    <use xlink:href="#crosssvg"></use>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="right-modal-block">
+                            <div class="right-modal-block-form-item">
+                                <label>Название <span class="red-color">*</span></label>
+                                <input type="text" itemField="Id" style="display:none" />
+
+                                <input type="text" itemField="Name" />
+                            </div>
+                            <div class="right-modal-block-form-item">
+                                <label>Состав <span class="red-color">*</span></label>
+                                <textarea type="text" rows="3" itemField="Description"></textarea>
+                            </div>
+                            <div class="right-modal-block-form-item">
+                                <label>Фото <span class="red-color">*</span></label>
+
+                                <button class="btn-upload">
+                                    <img id="itemImg" />
+                                    <div>Перетащите файл или загрузите фото</div>
+                                    <div>PNG, JPG, JPEG не более 25 MB, минимальный размер 800х600 px.</div>
+                                    <input type="file" onchange="createFile(this)"/>
+                                    <input type="text" style="display:none" itemField="Icon" id="ItemIcon" />
+                                </button>
+                                <button class="btn">Заменить фотографию</button>
+                            </div>
+                            <div class="right-modal-block-form-item">
+                                <div class="common-flex-row">
+                                    <div style="flex-basis: 50%;">
+                                        <label>Вес <span class="red-color">*</span></label>
+                                        <input type="text" itemField="Weight" />
+                                    </div>
+                                    <div style="flex-basis: 50%;">
+                                        <label>Единицы <span class="red-color">*</span></label>
+                                        <select itemField="Measurement_Unit">
+                                            <option value="0">Грамм</option>
+                                            <option value="1">Киллограмм</option>
+                                            <option value="2">Литр</option>
+                                            <option value="3">Миллилитр</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="right-modal-block-form-item">
+                                <div class="common-flex-row">
+                                    <div style="flex-basis: 50%;">
+                                        <label>Цена <span class="red-color">*</span></label>
+                                        <input type="text" itemField="Price" />
+                                    </div>
+                                    <div style="flex-basis: 50%;">
+                                        <label>НДС <span class="red-color">*</span></label>
+                                        <select itemField="NDS">
+                                            <option value="0">Не облагается </option>
+                                            <option value="10">10%</option>
+                                            <option> value="20"20%</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="right-modal-block">
+                            <div class="right-modal-block-form-item">
+                                <h2>Опции</h2>
+
+                            </div>
+                            <div id="optionGroups">
+                                <div id="group1">
+                                <div class="right-modal-block-form-item">
+                                    <label><strong>1. Название группы<span class="red-color"> *</span></strong></label>
+                                    <input type="text" />
+                                </div>
+                                <div class="right-modal-block-form-item">
+                                    <label><strong>Сколько ингредиентов можно будет выбрать в группе.</strong></label>
+                                    <div class="common-flex-row">
+                                        <select>
+                                            <option value="0">От 0</option>
+                                            <option value="10">От 1</option>
+                                            <option value="20">От 2</option>
+                                        </select>
+
+                                        <select>
+                                            <option value="0">До 1 </option>
+                                            <option value="10">До 2</option>
+                                            <option value="20">До 3</option>
+                                        </select>
+                                    </div>
+                                    <div class="common-flex-row" style="justify-content: left">
+                                        <input style="flex-basis: 10%; margin: 0" type="checkbox"/>
+                                        <span>Выбор варианта будет обязателен</span>
+                                    </div>
+                                </div>
+
+                                <ul class="ul">
+                                    <li class="right-modal-block-form-item">
+                                        <h4>Опиция 1 <span class="red-color"> *</span></h4>
+                                        <div class="common-flex-row">
+                                            <div style="flex-basis: 70%;">
+                                                <label>Название опиции<span class="red-color">*</span></label>
+                                            </div>
+                                            <div style="flex-basis: 30%;">
+                                                <label>Цена <span class="red-color">*</span></label>
+
+                                            </div>
+                                        </div>
+                                        <div class="common-flex-row">
+                                            <div style="flex-basis: 70%;">
+
+                                                <input type="text" />
+                                            </div>
+                                            <div style="flex-basis: 30%;">
+
+                                                <input type="text"/>
+                                            </div>
+                                            <button class="btn btn-transparent">
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                                    <use xlink:href="#crosssvg"></use>
+                                                </svg>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="right-modal-block-form-item">
+                                        <button class="btn">Добавить опцию</button>
+
+                                    </li>
+                                </ul>
+                                </div>
+                            </div>
+                            <div class="right-modal-block-form-item">
+                                <button class="btn" onclick="addOptionsGroup()">Добавить группу опций</button>
+                            </div>
+
+
+                        </div>
+                        <div class="right-modal-footer">
+                            <button class="btn" id="sendAddItemReqBtn" onclick=" ValidateItem();AddMenuItem();">
+                                <span> Добавить</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="nm-modal-wrapper hidden" id="addCategoryModal">
+                    <div class="centered-modal">
+                        <div class="centered-modal-header">
+
+                            <button class="btn" onclick="closeModals();">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" /></svg>
+                            </button>
+                        </div>
+                        <h1>Новая категория</h1>
+                        <input class="common-input" type="text" placeholder="Название категории" id="addCategoryNameInput"/>
+                        <button class="btn" onclick="sendAddcategoryRequest()">Добавить</button>
+                    </div>
+                </div>
+                <div class="nm-modal-wrapper hidden" id="addPhotoWrapper">
+                    <div class="centered-modal">
+                        <div class="centered-modal-header">
+
+                            <button class="btn" onclick="closeModals();">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z" /></svg>
+                            </button>
+                        </div>
+                        <h1>Новая фотография</h1>
+
+                        <div class="photo-canvas">
+                            <div class="photo-image-container">
+                                <div class="photo-image" style="background-image: url('img/pizza.jpg')"></div>
+                            </div>
+                        </div>
+                        <div class="centered-modal-footer">
+                            <button class="btn">Добавить</button>
+                        </div>
+                    </div>
+                </div>
+
+            </main>
+        </div>
+    </div>
+</div>
+
+
+
+<script src="/lib/jquery/dist/jquery.min.js"></script>
+<script src="/js/site.js?v=uxvxxO8WqknldOdDe2X1W8s8jme-c4xDJyYhvw6_YpM"></script>
+<script src="/js/ajaxReq.js?v=d7VbPZCoWCkRjurNqCRumKhpCvHiVm-MnNc2cKLrIAc"></script>
+<script src="/js/Support.js?v=8YnybFzIJH0bjZqaRPGdcreTZgacOTeFIdbRmgv6-L0"></script>
+<script src="/js/File.js?v=JzMzvyG2QoNzox3mKusMV5PESWpcaSONVsuOfA7cmvA"></script>
+
+<script>
+    var rest_id = 1;
+    var cats;
+    var MenuObg = {};
+    var bgCap = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQAQMAAAAlPW0iAAAAA3NCSVQICAjb4U/gAAAABlBMVEXMzMz////TjRV2AAAACXBIWXMAAArrAAAK6wGCiw1aAAAAHHRFWHRTb2Z0d2FyZQBBZG9iZSBGaXJld29ya3MgQ1M26LyyjAAAABFJREFUCJlj+M/AgBVhF/0PAH6/D/HkDxOGAAAAAElFTkSuQmCC';
+    document.addEventListener("DOMContentLoaded", IndexReady);
+    function IndexReady() {
+        const btns = document.querySelectorAll('.btn-upload');
+        btns.forEach(btn => {
+            btn.addEventListener('click', function () {
+                let inputs = this.getElementsByTagName('input');//[0]
+                for (let i = 0; i < inputs.length; i++) {
+                    if (inputs[i].type == 'file')
+                        inputs[i].click();
+                }
+
+                //input.removeEventListener('change', null);
+                /*input.addEventListener('change', function () {
+                    // Здесь можно добавить код для обработки выбранного файла
+                    // Например, можно получить информацию о выбранном файле и выполнить нужные действия
+                    const selectedFile = this.files[0];
+                    createFile(selectedFile);
+                });*/
+            });
+        });
+        GetMenu();
+        /*document.getElementById('file-input').addEventListener('change', function() {
+            // Здесь можно добавить код для обработки выбранного файла
+            // Например, можно получить информацию о выбранном файле и выполнить нужные действия
+            const selectedFile = this.files[0];
+            console.log('Выбранный файл:', selectedFile);
+        });*/
+    }
+    function createFile(input)
+    {
+        let file = input.files[0]
+        console.log('createFile start: '+file.name);
+        let uFile = new UploadFileClass("", showError, showError);
+        uFile.CreateFile(file, "/File/Create", createFileSuccess, showError, file)
+    }
+    function createFileSuccess(response, params) {
+
+        let uFile = new UploadFileClass("/File/Append", UploadFileSuccess, createFileError);
+        uFile.ReadPart(0, params[0], response);
+    }
+    function createFileError(xhr, status, error) {
+        alert('error:' + error);
+    }
+    function UploadFileSuccess(fileId) {
+        document.getElementById('ItemIcon').value = fileId;
+        document.getElementById('itemImg').src = "/File/Download?Id=" + fileId;
+        document.getElementById('itemImg').style.height = '80px';
+        document.getElementById('itemImg').style.width = '80px';
+
+        //closeModals();
+    }
+    function openItemModal(catId,isChange) {
+        document.getElementById('addItemModalWrapper').classList.remove('hidden');
+        document.documentElement.style.overflow = 'hidden';
+        document.getElementById('sendAddItemReqBtn').onclick = function () { AddMenuItem(catId) };
+
+        if (isChange == true) {
+            let sendAddItemReqBtn = document.getElementById('sendAddItemReqBtn');
+            sendAddItemReqBtn.getElementsByTagName('span')[0].innerText = 'Сохранить';
+            sendAddItemReqBtn.classList.add('disabled');
+            // sendAddItemReqBtn.disabled = true;
+        }
+        else {
+            document.getElementById('sendAddItemReqBtn').getElementsByTagName('span')[0].innerText = 'Добавить';
+            sendAddItemReqBtn.classList.add('disabled');
+            //  sendAddItemReqBtn.disabled = true;
+        }
+        window.onclick = function (event) {
+            if (isModalWrapper(event)) {
+                closeModals();
+            }
+        }
+    }
+    function openaddCategoryModal() {
+        document.getElementById('addCategoryModal').classList.remove('hidden');
+        document.documentElement.style.overflow = 'hidden';
+        window.onclick = function (event) {
+            if (isModalWrapper(event)) {
+                closeModals();
+            }
+        }
+    }
+    function closeModals() {
+        let modals = document.getElementsByClassName('nm-modal-wrapper');
+        for (let i = 0; i < modals.length; i++) {
+            modals[i].classList.add('hidden');
+        }
+        document.documentElement.style.overflow = 'visible';
+
+    }
+    function isModalWrapper(event) {
+        return event.target.classList.contains('nm-modal-wrapper');
+    }
+
+    function sendAddcategoryRequest()
+    {
+        let Name = document.getElementById('addCategoryNameInput').value;
+        Name = Name.trim();
+
+        submitFormJSON({ Name: Name, rest_id: rest_id, Pos: cats.length}, "/Menu/CreateCategory", AddcategoryRequestSuccess, AddcategoryRequestError)
+    }
+    function AddcategoryRequestSuccess(response) {
+
+        closeModals();
+        document.getElementById('addCategoryNameInput').value = '';
+        GetCategories();
+    }
+    function GetCategories() {
+        getRequest("/Menu/GetCategoriesByRest?rest_id=" + rest_id, GetCategoriesSuccess, AddcategoryRequestError);
+    }
+    function GetCategoriesSuccess(response)
+    {
+
+        let categories_ul = document.getElementById('categories_ul');
+        deleteElementChilds(categories_ul);
+
+        let catsList = JSON.parse(response);
+        document.getElementById('catsCount').innerText = catsList.length;
+        cats = catsList;
+        for (let i = 0; i < catsList.length; i++)
+        {
+            let li = document.createElement('li');
+            li.classList.add('menu-page-categories-item');
+            let nameDiv = document.createElement('div');
+            nameDiv.innerText = catsList[i].Name;
+            li.setAttribute('cat_id', catsList[i].Id);
+            li.appendChild(nameDiv);
+            if (!!catsList[i].Comment) {
+                let commentDiv = document.createElement('div');
+                commentDiv.classList.add('rey-color');
+                commentDiv.classList.add('menu-page-categories-item-comment');
+                commentDiv.innerText = catsList[i].Comment;
+                li.appendChild(commentDiv);
+            }
+            li.onclick = function () {
+                RenderMenuFromCategory(catsList[i].Id);
+            }
+            categories_ul.appendChild(li);
+
+        }
+    }
+    function RenderMenuFromCategory(id) {
+        let cat = FindInArrayByField(cats,'Id',id);
+        document.getElementById('menuItemsHeader').getElementsByTagName('span')[0].innerText = cat.Name;
+        document.getElementById('addItemBtn').onclick = function () {
+            openItemModal(id);
+        };
+        GetMenuBYCats(id);
+    }
+    function GetMenuBYCats(id)
+    {
+        getRequest("/Menu/GetMenuByCatRest?cat_id=" + id, GetMenuBYCatsSuccess, AddcategoryRequestError, id);
+    }
+    function ValidateItem()
+    {
+        let Valid = true;
+        let CreateItemForm = document.getElementById('CreateItemForm');
+        let inputs = CreateItemForm.getElementsByTagName('input');
+
+
+
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+
+
+            if (!itemField)
+                continue;
+            if (inputs[i].style.display == 'none')
+                continue;
+            if (inputs[i].value.trim() == '') {
+                inputs[i].classList.add('error');
+                Valid = false;
+
+                break;
+            } else {
+                inputs[i].classList.remove('error');
+            }
+        }
+
+
+
+        inputs = CreateItemForm.getElementsByTagName('select');
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+            if (!itemField)
+                continue;
+            if (inputs[i].value.trim() == '')
+            {
+                inputs[i].classList.add('error');
+                Valid = false;
+                break;
+            }else
+            {
+                inputs[i].classList.remove('error');
+            }
+
+        }
+
+        inputs = CreateItemForm.getElementsByTagName('select');
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+            if (!itemField)
+                continue;
+            if (inputs[i].value.trim() == '') {
+                inputs[i].classList.add('error');
+                Valid = false;
+                break;
+            } else {
+                inputs[i].classList.remove('error');
+            }
+
+        }
+
+        if (Valid)
+        {
+            sendAddItemReqBtn.classList.remove('disabled');
+            //sendAddItemReqBtn.disabled = false;
+        }else
+        {
+            sendAddItemReqBtn.classList.add('disabled');
+            //sendAddItemReqBtn.disabled = true;
+        }
+
+    }
+    function GetMenuBYCatsSuccess(response, id) {
+
+        console.log(response);
+        let menuItems = JSON.parse(response);
+        let cat = FindInArrayByField(cats, 'Id', parseInt(id));
+
+        cat.menuItems = menuItems;
+        let ul = document.getElementById('menuItemsUl');
+        deleteElementChilds(ul)
+        for (let i = 0; i < menuItems.length; i++)
+        {
+            let li = document.createElement('li');
+            li.className = 'menu-page-menu-item';
+
+            let leftDiv = document.createElement('div');
+            leftDiv.className = 'menu-page-menu-item-left';
+
+            let checkDiv = document.createElement('div');
+            checkDiv.className = 'menu-page-menu-item-check';
+            let checkbox = document.createElement('input');
+            checkbox.setAttribute('type', 'checkbox');
+            if (!menuItems[i].disabled)
+                checkbox.checked = true;
+            checkDiv.appendChild(checkbox);
+
+            let imgDiv = document.createElement('div');
+            imgDiv.className = 'menu-page-menu-item-img';
+            let img = document.createElement('img');
+            img.style.width = '100%';
+            img.style.height = '100%';
+            if (!!menuItems[i].Icon)
+                img.setAttribute('src', "/File/Download?Id=" + menuItems[i].Icon );
+            else
+                img.setAttribute('src', 'img/empty.png');
+            imgDiv.appendChild(img);
+
+            let nameDiv = document.createElement('div');
+            nameDiv.className = 'menu-page-menu-item-name';
+            let nameSpan1 = document.createElement('span');
+            nameSpan1.textContent = menuItems[i].Name;
+            let nameSpan2 = document.createElement('span');
+            nameSpan2.textContent = menuItems[i].Weight;
+            nameDiv.appendChild(nameSpan1);
+            nameDiv.appendChild(nameSpan2);
+
+            leftDiv.appendChild(checkDiv);
+            leftDiv.appendChild(imgDiv);
+            leftDiv.appendChild(nameDiv);
+
+            let rightDiv = document.createElement('div');
+            rightDiv.className = 'menu-page-menu-item-right';
+
+            let priceDiv = document.createElement('div');
+            priceDiv.className = 'menu-page-menu-item-price';
+            priceDiv.textContent = menuItems[i].Price + ' ₽';
+
+            let buttonsDiv = document.createElement('div');
+            buttonsDiv.className = 'menu-page-menu-item-buttons';
+            let button1Div = document.createElement('button');
+            button1Div.classList.add('btn');
+            button1Div.classList.add('btn-transparent');
+            button1Div.onclick = function() {
+                GetMenuItem(menuItems[i].Id);
+            };
+            let svg1 = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg1.classList.add('black-color');
+            let svg1Use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+            svg1Use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '#editsvg');
+            svg1.appendChild(svg1Use);
+            button1Div.appendChild(svg1);
+
+            let button2Div = document.createElement('button');
+            button2Div.classList.add('btn');
+            button2Div.classList.add('btn-transparent');
+
+            let svg2 = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+            svg2.classList.add('red-color');
+            let svg2Use = document.createElementNS('http://www.w3.org/2000/svg', 'use');
+            svg2Use.setAttributeNS('http://www.w3.org/1999/xlink', 'xlink:href', '#busketsvg');
+            svg2.appendChild(svg2Use);
+
+            button2Div.appendChild(svg2);
+
+            buttonsDiv.appendChild(button1Div);
+            buttonsDiv.appendChild(button2Div);
+
+            rightDiv.appendChild(priceDiv);
+            rightDiv.appendChild(buttonsDiv);
+
+            li.appendChild(leftDiv);
+            li.appendChild(rightDiv);
+
+            ul.appendChild(li);
+
+        }
+    }
+
+    function AddcategoryRequestError(xhr, status, error) {
+        if (typeof error != 'undefined' && error != '') {
+            alert("ERROR:" + error, true);
+        } else {
+            alert("ERROR:" + xhr.responseText, true);
+        }
+    }
+
+    function AddMenuItem(catId,isChange)
+    {
+        if (!ValidateItem())
+            return;
+
+        let CreateItemForm = document.getElementById('CreateItemForm');
+        let inputs = CreateItemForm.getElementsByTagName('input');
+
+        /*inputs.concat(CreateItemForm.getElementsByTagName('textarea'));
+        inputs.concat(CreateItemForm.getElementsByTagName('select'));*/
+        let item = {};
+        item.Category_Id = catId;
+        for (let i = 0; i < inputs.length; i++)
+        {
+            let itemField = inputs[i].getAttribute('itemField');
+
+            if (!itemField)
+                continue;
+            item[itemField] = inputs[i].value.trim();
+
+        }
+        inputs = CreateItemForm.getElementsByTagName('select');
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+            if (!itemField)
+                continue;
+            item[itemField] = inputs[i].value.trim();
+
+        }
+        inputs = CreateItemForm.getElementsByTagName('textarea');
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+            if (!itemField)
+                continue;
+            item[itemField] = inputs[i].value.trim();
+        }
+        if(isChange ===true)
+            submitFormJSON(item, "/Menu/EditMenuItem", AddcategoryRequestSuccess, AddcategoryRequestError, catId)
+        else
+            submitFormJSON(item, "/Menu/CreateMenuItem", AddcategoryRequestSuccess, AddcategoryRequestError, catId)
+
+    }
+    function AddItemRequestSuccess(id)
+    {
+        GetMenuBYCats(id)
+    }
+
+    function GetMenuItem(id)
+    {
+        getRequest("/Menu/GetItem?item_id=" + id, GetMenuItemSuccess, showError);
+    }
+    function GetMenuItemSuccess(response)
+    {
+        let item = JSON.parse(response);
+        let CreateItemForm = document.getElementById('CreateItemForm');
+        let inputs = CreateItemForm.getElementsByTagName('input');
+
+        /*inputs.concat(CreateItemForm.getElementsByTagName('textarea'));
+        inputs.concat(CreateItemForm.getElementsByTagName('select'));*/
+
+        catId = item.Category_Id;
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+
+            if (!itemField)
+                continue;
+            if (!!item[itemField])
+                inputs[i].value = item[itemField];
+        }
+
+        inputs = CreateItemForm.getElementsByTagName('select');
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+            if (!itemField)
+                continue;
+            if (!!item[itemField])
+                inputs[i].value = item[itemField];
+
+        }
+        inputs = CreateItemForm.getElementsByTagName('textarea');
+        for (let i = 0; i < inputs.length; i++) {
+            let itemField = inputs[i].getAttribute('itemField');
+            if (!itemField)
+                continue;
+            if (!!item[itemField])
+                inputs[i].value = item[itemField];
+        }
+
+        if (!!item.Icon)
+        {
+            document.getElementById('itemImg').src = "/File/Download?Id=" + item.Icon;
+            document.getElementById('itemImg').style.height = '80px';
+            document.getElementById('itemImg').style.width = '80px';
+        }else
+        {
+            document.getElementById('itemImg').style.height = '0';
+            document.getElementById('itemImg').style.width = '0';
+        }
+        openItemModal(catId,true);
+    }
+
+    function genOption(groupId) {
+        let li1 = document.createElement('li');
+        li1.className = 'right-modal-block-form-item';
+
+        let h4 = document.createElement('h4');
+        h4.textContent = 'Опция 1';
+        let span1 = document.createElement('span');
+        span1.className = 'red-color';
+        span1.textContent = ' *';
+        h4.appendChild(span1);
+        li1.appendChild(h4);
+
+        let commonFlexRowDiv3 = document.createElement('div');
+        commonFlexRowDiv3.className = 'common-flex-row';
+
+        let div1 = document.createElement('div');
+        div1.style.flexBasis = '70%';
+        let label3 = document.createElement('label');
+        label3.textContent = 'Название опции';
+        let span2 = document.createElement('span');
+        span2.className = 'red-color';
+        span2.textContent = '*';
+        label3.appendChild(span2);
+        div1.appendChild(label3);
+
+        let div2 = document.createElement('div');
+        div2.style.flexBasis = '30%';
+        let label4 = document.createElement('label');
+        label4.textContent = 'Цена';
+        let span3 = document.createElement('span');
+        span3.className = 'red-color';
+        span3.textContent = '*';
+        label4.appendChild(span3);
+        div2.appendChild(label4);
+
+        commonFlexRowDiv3.appendChild(div1);
+        commonFlexRowDiv3.appendChild(div2);
+        li1.appendChild(commonFlexRowDiv3);
+
+        let commonFlexRowDiv4 = document.createElement('div');
+        commonFlexRowDiv4.className = 'common-flex-row';
+
+        let div3 = document.createElement('div');
+        div3.style.flexBasis = '70%';
+        let input2 = document.createElement('input');
+        input2.setAttribute('type', 'text');
+        div3.appendChild(input2);
+
+        let div4 = document.createElement('div');
+        div4.style.flexBasis = '30%';
+        let input3 = document.createElement('input');
+        input3.setAttribute('type', 'text');
+        div4.appendChild(input3);
+
+        let button = document.createElement('button');
+        button.className = 'btn btn-transparent';
+        let svg = document.createElement('svg');
+        svg.setAttribute('xmlns', '');
+        svg.setAttribute('viewBox', '0 0 384 512');
+        let use = document.createElement('use');
+        use.setAttribute('xlink:href', '#crosssvg');
+        svg.appendChild(use);
+        button.appendChild(svg);
+
+        commonFlexRowDiv4.appendChild(div3);
+        commonFlexRowDiv4.appendChild(div4);
+        commonFlexRowDiv4.appendChild(button);
+        li1.appendChild(commonFlexRowDiv4);
+        return li1;
+    }
+    function addOptionsGroup() {
+        function generateGroupSkeleton(id) {
+
+            let groupDiv = document.createElement('div');
+            groupDiv.id = 'group_'+id;
+
+            // Создаем первый элемент формы
+            let formItem1Div = document.createElement('div');
+            formItem1Div.className = 'right-modal-block-form-item';
+
+            let label1 = document.createElement('label');
+            label1.innerHTML = '<strong>1. Название группы<span class="red-color"> *</span></strong>';
+            formItem1Div.appendChild(label1);
+
+            let input1 = document.createElement('input');
+            input1.setAttribute('type', 'text');
+            formItem1Div.appendChild(input1);
+
+            groupDiv.appendChild(formItem1Div);
+
+            // Создаем второй элемент формы
+            let formItem2Div = document.createElement('div');
+            formItem2Div.className = 'right-modal-block-form-item';
+
+            let label2 = document.createElement('label');
+            label2.innerHTML = '<strong>Сколько ингредиентов можно будет выбрать в группе.</strong>';
+            formItem2Div.appendChild(label2);
+
+            let commonFlexRowDiv = document.createElement('div');
+            commonFlexRowDiv.className = 'common-flex-row';
+
+            let select1 = document.createElement('select');
+            select1.innerHTML = '<option value="0">От 0</option><option value="10">От 1</option><option value="20">От 2</option>';
+            commonFlexRowDiv.appendChild(select1);
+
+            let select2 = document.createElement('select');
+            select2.innerHTML = '<option value="0">До 1</option><option value="10">До 2</option><option value="20">До 3</option>';
+            commonFlexRowDiv.appendChild(select2);
+
+            formItem2Div.appendChild(commonFlexRowDiv);
+
+            let commonFlexRowDiv2 = document.createElement('div');
+            commonFlexRowDiv2.className = 'common-flex-row';
+            commonFlexRowDiv2.style.justifyContent = 'left';
+
+            let checkbox = document.createElement('input');
+            checkbox.setAttribute('type', 'checkbox');
+            checkbox.style.flexBasis = '10%';
+            checkbox.style.margin = '0';
+            commonFlexRowDiv2.appendChild(checkbox);
+
+            let span = document.createElement('span');
+            span.textContent = 'Выбор варианта будет обязателен';
+            commonFlexRowDiv2.appendChild(span);
+
+            formItem2Div.appendChild(commonFlexRowDiv2);
+
+            groupDiv.appendChild(formItem2Div);
+
+            // Создаем элемент UL
+            let ul = document.createElement('ul');
+            ul.id = 'ul'+groupDiv.id;
+            ul.className = 'ul';
+            ul.appendChild(genOption());
+            groupDiv.appendChild(ul);
+            let button2 = document.createElement('button');
+            button2.className = 'btn';
+            button2.textContent = 'Добавить опцию';
+            button2.onclick = function(){
+                addOption(groupDiv.id);
+            }
+            groupDiv.appendChild(button2);
+            return groupDiv
+        }
+
+        let optionGroups = document.getElementById('optionGroups');
+        optionGroups.appendChild(generateGroupSkeleton('1'));
+    }
+    function addOption(groupId) {
+
+        let groupUl = document.getElementById('ul'+groupId);
+        groupUl.appendChild(genOption())
+
+    }
+</script>
+
+
+<!-- Visual Studio Browser Link -->
+
+<!-- End Browser Link -->
+
+
+</body>
+</html>
